@@ -84,17 +84,18 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
                 </ul>
             </div>
         </div>
-        
     </header>
-    <div class="container-80">
-    <?php 
-        foreach ($answers as $answer) {
-            echo '<h2>' . $answer['question'] . '</h2>';
-            echo $answer['answer'];
-        }   
-
-    ?>
-
-    </div>
+    <main>
+        <div class="container-70">
+        <?php 
+            foreach ($answers as $answer) {
+                echo '<h2>' . $answer['question'] . '</h2>';
+                echo $answer['answer'];
+            }   
+    
+        ?>
+    
+        </div>
+    </main>
 </body>
 </html>
