@@ -97,5 +97,26 @@ Ci sono diverse domande con relative risposte. Gestire il “Database” e la vi
     
         </div>
     </main>
+    <footer>
+        <div class="container-70">
+            <div class="col-left">
+                <ul>
+                    <li><a href="https://www.google.com/">Google</a></li>
+                    <li><a href="https://about.google/">Tutto su Google</a></li>
+                    <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms">Termini</a></li>
+                </ul>
+            </div>
+            <div class="col-right">
+                <form action="">
+                    <select name="language" id="language">
+                        <option value="italiano">Italiano</option>
+                        <option value="francese">Francese</option>
+                        <option value="inglese">Inglese</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
